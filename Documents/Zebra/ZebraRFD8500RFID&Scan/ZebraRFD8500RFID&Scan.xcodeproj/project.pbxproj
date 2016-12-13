@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1E386B1DF7F24200136723 /* ZebraActiveScannerBarcodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E386A1DF7F24200136723 /* ZebraActiveScannerBarcodeController.m */; };
+		2D1E386E1DF7F5A400136723 /* ZebraBarcodeEventController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E386D1DF7F5A400136723 /* ZebraBarcodeEventController.m */; };
+		2DAF30911DF508900015204B /* ZebraRFID.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF30901DF508900015204B /* ZebraRFID.storyboard */; };
+		2DAF30931DF508A40015204B /* ZebraScanner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF30921DF508A40015204B /* ZebraScanner.storyboard */; };
+		2DAF30961DF50A3B0015204B /* ZebraRFIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30951DF50A3B0015204B /* ZebraRFIDController.m */; };
+		2DAF30AC1DF5146C0015204B /* ActiveReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30991DF5146C0015204B /* ActiveReader.m */; };
+		2DAF30AD1DF5146C0015204B /* AppConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF309B1DF5146C0015204B /* AppConfiguration.m */; };
+		2DAF30AE1DF5146C0015204B /* EnumMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF309D1DF5146C0015204B /* EnumMapper.m */; };
+		2DAF30AF1DF5146C0015204B /* FileExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF309F1DF5146C0015204B /* FileExportManager.m */; };
+		2DAF30B01DF5146C0015204B /* InventoryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30A11DF5146C0015204B /* InventoryData.m */; };
+		2DAF30B11DF5146C0015204B /* RadioOperationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30A31DF5146C0015204B /* RadioOperationEngine.m */; };
+		2DAF30B21DF5146C0015204B /* RegionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30A51DF5146C0015204B /* RegionData.m */; };
+		2DAF30B31DF5146C0015204B /* RfidAppEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30A71DF5146C0015204B /* RfidAppEngine.m */; };
+		2DAF30B41DF5146C0015204B /* SledConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30A91DF5146C0015204B /* SledConfiguration.m */; };
+		2DAF30B51DF5146C0015204B /* ZebraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30AB1DF5146C0015204B /* ZebraModel.m */; };
+		2DAF30BD1DF514A80015204B /* RFIDDeviceCellVeiew.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30B71DF514A80015204B /* RFIDDeviceCellVeiew.m */; };
+		2DAF30BE1DF514A80015204B /* ZebraTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30BA1DF514A80015204B /* ZebraTableViewCell.m */; };
+		2DAF30BF1DF514A80015204B /* ZebraTagTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30BC1DF514A80015204B /* ZebraTagTableViewCell.m */; };
+		2DAF30C11DF515440015204B /* function.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF30C01DF515440015204B /* function.json */; };
+		2DAF30CE1DF516060015204B /* InventoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30C71DF516060015204B /* InventoryItem.m */; };
+		2DAF30D31DF519B70015204B /* ZebraSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30D21DF519B70015204B /* ZebraSettingsController.m */; };
+		2DAF30D61DF521F10015204B /* ZebraReaderListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF30D51DF521F10015204B /* ZebraReaderListController.m */; };
+		2DAF30D81DF53D610015204B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAF30D71DF53D610015204B /* CoreBluetooth.framework */; };
+		2DAF30DC1DF53D970015204B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAF30DB1DF53D970015204B /* Foundation.framework */; };
+		2DAF30DE1DF53DA40015204B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAF30DD1DF53DA40015204B /* UIKit.framework */; };
+		2DAF30E01DF53DAF0015204B /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAF30DF1DF53DAF0015204B /* ExternalAccessory.framework */; };
+		2DC269C31DF95C040039DEAE /* TabletMainSplitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC269C21DF95C040039DEAE /* TabletMainSplitVC.m */; };
+		2DC269C61DF95C270039DEAE /* TabletMainSplitVCDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC269C51DF95C270039DEAE /* TabletMainSplitVCDelegate.m */; };
+		2DF987221DF7998D00B9898B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF987211DF7998D00B9898B /* CoreGraphics.framework */; };
+		2DF987241DF7999F00B9898B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF987231DF7999F00B9898B /* QuartzCore.framework */; };
+		2DF9875A1DF7AFEF00B9898B /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987571DF7AFEF00B9898B /* AlertView.m */; };
+		2DF9875B1DF7AFEF00B9898B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987591DF7AFEF00B9898B /* MBProgressHUD.m */; };
+		2DF987801DF7B78C00B9898B /* ActiveScannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9877E1DF7B78C00B9898B /* ActiveScannerVC.m */; };
+		2DF987831DF7B7BB00B9898B /* ScannerAppEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987811DF7B7BB00B9898B /* ScannerAppEngine.m */; };
+		2DF987861DF7B7F400B9898B /* ScannerListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987841DF7B7F400B9898B /* ScannerListTable.m */; };
+		2DF987891DF7B81000B9898B /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987871DF7B81000B9898B /* ConnectionManager.m */; };
+		2DF9878D1DF7B86100B9898B /* BarcodeTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9878B1DF7B86100B9898B /* BarcodeTypes.m */; };
+		2DF987901DF7B87700B9898B /* DecodeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9878E1DF7B87700B9898B /* DecodeEvent.m */; };
+		2DF987931DF7B88C00B9898B /* BarcodeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987911DF7B88C00B9898B /* BarcodeList.m */; };
+		2DF987A11DF7C11400B9898B /* libsymbolbt-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF987A01DF7C11400B9898B /* libsymbolbt-sdk.a */; };
+		2DF987A81DF7DF7200B9898B /* ScannerAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987A61DF7DF7200B9898B /* ScannerAppController.m */; };
+		2DF987AB1DF7EDE300B9898B /* FwwTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987AA1DF7EDE300B9898B /* FwwTabBar.m */; };
+		2DF987AE1DF7EF5300B9898B /* ZebraActiveScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF987AD1DF7EF5300B9898B /* ZebraActiveScannerController.m */; };
+		2DF9F0461DF68D55008FD4E3 /* UIViewController+ZT_FieldCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9F0451DF68D55008FD4E3 /* UIViewController+ZT_FieldCheck.m */; };
+		2DF9F0491DF68E5A008FD4E3 /* BaseDpoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9F0481DF68E5A008FD4E3 /* BaseDpoVC.m */; };
+		2DF9F04C1DF68EA4008FD4E3 /* ZebraInventoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9F04B1DF68EA4008FD4E3 /* ZebraInventoryController.m */; };
+		2DF9F04F1DF69200008FD4E3 /* RFIDTagCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9F04E1DF69200008FD4E3 /* RFIDTagCellView.m */; };
+		2DF9F0521DF6A7B0008FD4E3 /* ZebraInventoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF9F0511DF6A7B0008FD4E3 /* ZebraInventoryCell.m */; };
+		2DF9F0541DF6A7DD008FD4E3 /* InventoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF9F0531DF6A7DD008FD4E3 /* InventoryCell.xib */; };
+		2DFA9D6E1DF4FB2F008C835E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9D6D1DF4FB2F008C835E /* main.m */; };
+		2DFA9D711DF4FB2F008C835E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9D701DF4FB2F008C835E /* AppDelegate.m */; };
+		2DFA9D741DF4FB2F008C835E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9D731DF4FB2F008C835E /* ViewController.m */; };
+		2DFA9D771DF4FB2F008C835E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFA9D751DF4FB2F008C835E /* Main.storyboard */; };
+		2DFA9D791DF4FB2F008C835E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFA9D781DF4FB2F008C835E /* Assets.xcassets */; };
+		2DFA9D7C1DF4FB2F008C835E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFA9D7A1DF4FB2F008C835E /* LaunchScreen.storyboard */; };
+		2DFA9D871DF4FB2F008C835E /* ZebraRFD8500RFID_ScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9D861DF4FB2F008C835E /* ZebraRFD8500RFID_ScanTests.m */; };
+		2DFA9D921DF4FB2F008C835E /* ZebraRFD8500RFID_ScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9D911DF4FB2F008C835E /* ZebraRFD8500RFID_ScanUITests.m */; };
+		2DFA9DBD1DF4FC42008C835E /* libsymbolrfid-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFA9DBC1DF4FC42008C835E /* libsymbolrfid-sdk.a */; };
+		2DFA9DCA1DF5052C008C835E /* ZebraModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFA9DC91DF5052C008C835E /* ZebraModelController.m */; };
+		2DFD5DEA1DFE94CD006C5AC8 /* ZebraActiveScannerInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD5DE91DFE94CD006C5AC8 /* ZebraActiveScannerInfoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DFA9D831DF4FB2F008C835E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFA9D611DF4FB2F008C835E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFA9D681DF4FB2F008C835E;
+			remoteInfo = "ZebraRFD8500RFID&Scan";
+		};
+		2DFA9D8E1DF4FB2F008C835E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFA9D611DF4FB2F008C835E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFA9D681DF4FB2F008C835E;
+			remoteInfo = "ZebraRFD8500RFID&Scan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D1E38691DF7F24200136723 /* ZebraActiveScannerBarcodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraActiveScannerBarcodeController.h; sourceTree = "<group>"; };
+		2D1E386A1DF7F24200136723 /* ZebraActiveScannerBarcodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraActiveScannerBarcodeController.m; sourceTree = "<group>"; };
+		2D1E386C1DF7F5A400136723 /* ZebraBarcodeEventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraBarcodeEventController.h; sourceTree = "<group>"; };
+		2D1E386D1DF7F5A400136723 /* ZebraBarcodeEventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraBarcodeEventController.m; sourceTree = "<group>"; };
+		2DAF30901DF508900015204B /* ZebraRFID.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ZebraRFID.storyboard; sourceTree = "<group>"; };
+		2DAF30921DF508A40015204B /* ZebraScanner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ZebraScanner.storyboard; sourceTree = "<group>"; };
+		2DAF30941DF50A3B0015204B /* ZebraRFIDController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraRFIDController.h; sourceTree = "<group>"; };
+		2DAF30951DF50A3B0015204B /* ZebraRFIDController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraRFIDController.m; sourceTree = "<group>"; };
+		2DAF30981DF5146C0015204B /* ActiveReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveReader.h; sourceTree = "<group>"; };
+		2DAF30991DF5146C0015204B /* ActiveReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveReader.m; sourceTree = "<group>"; };
+		2DAF309A1DF5146C0015204B /* AppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfiguration.h; sourceTree = "<group>"; };
+		2DAF309B1DF5146C0015204B /* AppConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfiguration.m; sourceTree = "<group>"; };
+		2DAF309C1DF5146C0015204B /* EnumMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumMapper.h; sourceTree = "<group>"; };
+		2DAF309D1DF5146C0015204B /* EnumMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumMapper.m; sourceTree = "<group>"; };
+		2DAF309E1DF5146C0015204B /* FileExportManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileExportManager.h; sourceTree = "<group>"; };
+		2DAF309F1DF5146C0015204B /* FileExportManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileExportManager.m; sourceTree = "<group>"; };
+		2DAF30A01DF5146C0015204B /* InventoryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryData.h; sourceTree = "<group>"; };
+		2DAF30A11DF5146C0015204B /* InventoryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryData.m; sourceTree = "<group>"; };
+		2DAF30A21DF5146C0015204B /* RadioOperationEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioOperationEngine.h; sourceTree = "<group>"; };
+		2DAF30A31DF5146C0015204B /* RadioOperationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioOperationEngine.m; sourceTree = "<group>"; };
+		2DAF30A41DF5146C0015204B /* RegionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionData.h; sourceTree = "<group>"; };
+		2DAF30A51DF5146C0015204B /* RegionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionData.m; sourceTree = "<group>"; };
+		2DAF30A61DF5146C0015204B /* RfidAppEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidAppEngine.h; sourceTree = "<group>"; };
+		2DAF30A71DF5146C0015204B /* RfidAppEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfidAppEngine.m; sourceTree = "<group>"; };
+		2DAF30A81DF5146C0015204B /* SledConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SledConfiguration.h; sourceTree = "<group>"; };
+		2DAF30A91DF5146C0015204B /* SledConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SledConfiguration.m; sourceTree = "<group>"; };
+		2DAF30AA1DF5146C0015204B /* ZebraModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraModel.h; sourceTree = "<group>"; };
+		2DAF30AB1DF5146C0015204B /* ZebraModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraModel.m; sourceTree = "<group>"; };
+		2DAF30B71DF514A80015204B /* RFIDDeviceCellVeiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFIDDeviceCellVeiew.m; sourceTree = "<group>"; };
+		2DAF30B81DF514A80015204B /* RFIDDeviceCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFIDDeviceCellView.h; sourceTree = "<group>"; };
+		2DAF30B91DF514A80015204B /* ZebraTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraTableViewCell.h; sourceTree = "<group>"; };
+		2DAF30BA1DF514A80015204B /* ZebraTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraTableViewCell.m; sourceTree = "<group>"; };
+		2DAF30BB1DF514A80015204B /* ZebraTagTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraTagTableViewCell.h; sourceTree = "<group>"; };
+		2DAF30BC1DF514A80015204B /* ZebraTagTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraTagTableViewCell.m; sourceTree = "<group>"; };
+		2DAF30C01DF515440015204B /* function.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = function.json; sourceTree = "<group>"; };
+		2DAF30C61DF516060015204B /* InventoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryItem.h; sourceTree = "<group>"; };
+		2DAF30C71DF516060015204B /* InventoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryItem.m; sourceTree = "<group>"; };
+		2DAF30C81DF516060015204B /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		2DAF30CB1DF516060015204B /* RfidAppKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidAppKeys.h; sourceTree = "<group>"; };
+		2DAF30CC1DF516060015204B /* ui_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_config.h; sourceTree = "<group>"; };
+		2DAF30D11DF519B70015204B /* ZebraSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraSettingsController.h; sourceTree = "<group>"; };
+		2DAF30D21DF519B70015204B /* ZebraSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraSettingsController.m; sourceTree = "<group>"; };
+		2DAF30D41DF521F10015204B /* ZebraReaderListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraReaderListController.h; sourceTree = "<group>"; };
+		2DAF30D51DF521F10015204B /* ZebraReaderListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraReaderListController.m; sourceTree = "<group>"; };
+		2DAF30D71DF53D610015204B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2DAF30DB1DF53D970015204B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DAF30DD1DF53DA40015204B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DAF30DF1DF53DAF0015204B /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		2DC269C11DF95C040039DEAE /* TabletMainSplitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabletMainSplitVC.h; sourceTree = "<group>"; };
+		2DC269C21DF95C040039DEAE /* TabletMainSplitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabletMainSplitVC.m; sourceTree = "<group>"; };
+		2DC269C41DF95C270039DEAE /* TabletMainSplitVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabletMainSplitVCDelegate.h; sourceTree = "<group>"; };
+		2DC269C51DF95C270039DEAE /* TabletMainSplitVCDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabletMainSplitVCDelegate.m; sourceTree = "<group>"; };
+		2DF987211DF7998D00B9898B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DF987231DF7999F00B9898B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2DF987561DF7AFEF00B9898B /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		2DF987571DF7AFEF00B9898B /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		2DF987581DF7AFEF00B9898B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2DF987591DF7AFEF00B9898B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2DF9875C1DF7B01400B9898B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2DF9877E1DF7B78C00B9898B /* ActiveScannerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveScannerVC.m; sourceTree = "<group>"; };
+		2DF9877F1DF7B78C00B9898B /* ActiveScannerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveScannerVC.h; sourceTree = "<group>"; };
+		2DF987811DF7B7BB00B9898B /* ScannerAppEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerAppEngine.m; sourceTree = "<group>"; };
+		2DF987821DF7B7BB00B9898B /* ScannerAppEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerAppEngine.h; sourceTree = "<group>"; };
+		2DF987841DF7B7F400B9898B /* ScannerListTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerListTable.m; sourceTree = "<group>"; };
+		2DF987851DF7B7F400B9898B /* ScannerListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerListTable.h; sourceTree = "<group>"; };
+		2DF987871DF7B81000B9898B /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		2DF987881DF7B81000B9898B /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		2DF9878A1DF7B82E00B9898B /* AppSettingsKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettingsKeys.h; sourceTree = "<group>"; };
+		2DF9878B1DF7B86100B9898B /* BarcodeTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeTypes.m; sourceTree = "<group>"; };
+		2DF9878C1DF7B86100B9898B /* BarcodeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeTypes.h; sourceTree = "<group>"; };
+		2DF9878E1DF7B87700B9898B /* DecodeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecodeEvent.m; sourceTree = "<group>"; };
+		2DF9878F1DF7B87700B9898B /* DecodeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecodeEvent.h; sourceTree = "<group>"; };
+		2DF987911DF7B88C00B9898B /* BarcodeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeList.m; sourceTree = "<group>"; };
+		2DF987921DF7B88C00B9898B /* BarcodeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeList.h; sourceTree = "<group>"; };
+		2DF9879A1DF7C11400B9898B /* ISbtSdkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISbtSdkApi.h; sourceTree = "<group>"; };
+		2DF9879B1DF7C11400B9898B /* ISbtSdkApiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISbtSdkApiDelegate.h; sourceTree = "<group>"; };
+		2DF9879C1DF7C11400B9898B /* RMDAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMDAttributes.h; sourceTree = "<group>"; };
+		2DF9879D1DF7C11400B9898B /* SbtScannerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SbtScannerInfo.h; sourceTree = "<group>"; };
+		2DF9879E1DF7C11400B9898B /* SbtSdkDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SbtSdkDefs.h; sourceTree = "<group>"; };
+		2DF9879F1DF7C11400B9898B /* SbtSdkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SbtSdkFactory.h; sourceTree = "<group>"; };
+		2DF987A01DF7C11400B9898B /* libsymbolbt-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsymbolbt-sdk.a"; sourceTree = "<group>"; };
+		2DF987A61DF7DF7200B9898B /* ScannerAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerAppController.m; sourceTree = "<group>"; };
+		2DF987A71DF7DF7200B9898B /* ScannerAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerAppController.h; sourceTree = "<group>"; };
+		2DF987A91DF7EDE300B9898B /* FwwTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FwwTabBar.h; sourceTree = "<group>"; };
+		2DF987AA1DF7EDE300B9898B /* FwwTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FwwTabBar.m; sourceTree = "<group>"; };
+		2DF987AC1DF7EF5300B9898B /* ZebraActiveScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraActiveScannerController.h; sourceTree = "<group>"; };
+		2DF987AD1DF7EF5300B9898B /* ZebraActiveScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraActiveScannerController.m; sourceTree = "<group>"; };
+		2DF9F0441DF68D55008FD4E3 /* UIViewController+ZT_FieldCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZT_FieldCheck.h"; sourceTree = "<group>"; };
+		2DF9F0451DF68D55008FD4E3 /* UIViewController+ZT_FieldCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZT_FieldCheck.m"; sourceTree = "<group>"; };
+		2DF9F0471DF68E5A008FD4E3 /* BaseDpoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDpoVC.h; sourceTree = "<group>"; };
+		2DF9F0481DF68E5A008FD4E3 /* BaseDpoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDpoVC.m; sourceTree = "<group>"; };
+		2DF9F04A1DF68EA4008FD4E3 /* ZebraInventoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraInventoryController.h; sourceTree = "<group>"; };
+		2DF9F04B1DF68EA4008FD4E3 /* ZebraInventoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraInventoryController.m; sourceTree = "<group>"; };
+		2DF9F04D1DF69200008FD4E3 /* RFIDTagCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFIDTagCellView.h; sourceTree = "<group>"; };
+		2DF9F04E1DF69200008FD4E3 /* RFIDTagCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFIDTagCellView.m; sourceTree = "<group>"; };
+		2DF9F0501DF6A7B0008FD4E3 /* ZebraInventoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraInventoryCell.h; sourceTree = "<group>"; };
+		2DF9F0511DF6A7B0008FD4E3 /* ZebraInventoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraInventoryCell.m; sourceTree = "<group>"; };
+		2DF9F0531DF6A7DD008FD4E3 /* InventoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InventoryCell.xib; sourceTree = "<group>"; };
+		2DFA9D691DF4FB2F008C835E /* ZebraRFD8500RFID&Scan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZebraRFD8500RFID&Scan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFA9D6D1DF4FB2F008C835E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DFA9D6F1DF4FB2F008C835E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DFA9D701DF4FB2F008C835E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DFA9D721DF4FB2F008C835E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DFA9D731DF4FB2F008C835E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DFA9D761DF4FB2F008C835E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DFA9D781DF4FB2F008C835E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DFA9D7B1DF4FB2F008C835E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DFA9D7D1DF4FB2F008C835E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFA9D821DF4FB2F008C835E /* ZebraRFD8500RFID&ScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZebraRFD8500RFID&ScanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFA9D861DF4FB2F008C835E /* ZebraRFD8500RFID_ScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZebraRFD8500RFID_ScanTests.m; sourceTree = "<group>"; };
+		2DFA9D881DF4FB2F008C835E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFA9D8D1DF4FB2F008C835E /* ZebraRFD8500RFID&ScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZebraRFD8500RFID&ScanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFA9D911DF4FB2F008C835E /* ZebraRFD8500RFID_ScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZebraRFD8500RFID_ScanUITests.m; sourceTree = "<group>"; };
+		2DFA9D931DF4FB2F008C835E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFA9DA41DF4FC42008C835E /* AccessOperationCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessOperationCode.h; sourceTree = "<group>"; };
+		2DFA9DA51DF4FC42008C835E /* RfidAccessConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidAccessConfig.h; sourceTree = "<group>"; };
+		2DFA9DA61DF4FC42008C835E /* RfidAntennaConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidAntennaConfiguration.h; sourceTree = "<group>"; };
+		2DFA9DA71DF4FC42008C835E /* RfidAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidAttribute.h; sourceTree = "<group>"; };
+		2DFA9DA81DF4FC42008C835E /* RfidBatteryEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidBatteryEvent.h; sourceTree = "<group>"; };
+		2DFA9DA91DF4FC42008C835E /* RfidDynamicPowerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidDynamicPowerConfig.h; sourceTree = "<group>"; };
+		2DFA9DAA1DF4FC42008C835E /* RfidLinkProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidLinkProfile.h; sourceTree = "<group>"; };
+		2DFA9DAB1DF4FC42008C835E /* RfidOperEndSummaryEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidOperEndSummaryEvent.h; sourceTree = "<group>"; };
+		2DFA9DAC1DF4FC42008C835E /* RfidPreFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidPreFilter.h; sourceTree = "<group>"; };
+		2DFA9DAD1DF4FC42008C835E /* RfidReaderCapabilitiesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidReaderCapabilitiesInfo.h; sourceTree = "<group>"; };
+		2DFA9DAE1DF4FC42008C835E /* RfidReaderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidReaderInfo.h; sourceTree = "<group>"; };
+		2DFA9DAF1DF4FC42008C835E /* RfidReaderVersionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidReaderVersionInfo.h; sourceTree = "<group>"; };
+		2DFA9DB01DF4FC42008C835E /* RfidRegionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidRegionInfo.h; sourceTree = "<group>"; };
+		2DFA9DB11DF4FC42008C835E /* RfidRegulatoryConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidRegulatoryConfig.h; sourceTree = "<group>"; };
+		2DFA9DB21DF4FC42008C835E /* RfidReportConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidReportConfig.h; sourceTree = "<group>"; };
+		2DFA9DB31DF4FC42008C835E /* RfidSdkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidSdkApi.h; sourceTree = "<group>"; };
+		2DFA9DB41DF4FC42008C835E /* RfidSdkApiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidSdkApiDelegate.h; sourceTree = "<group>"; };
+		2DFA9DB51DF4FC42008C835E /* RfidSdkDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidSdkDefs.h; sourceTree = "<group>"; };
+		2DFA9DB61DF4FC42008C835E /* RfidSdkFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidSdkFactory.h; sourceTree = "<group>"; };
+		2DFA9DB71DF4FC42008C835E /* RfidSingulationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidSingulationConfig.h; sourceTree = "<group>"; };
+		2DFA9DB81DF4FC42008C835E /* RfidStartTriggerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidStartTriggerConfig.h; sourceTree = "<group>"; };
+		2DFA9DB91DF4FC42008C835E /* RfidStopTriggerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidStopTriggerConfig.h; sourceTree = "<group>"; };
+		2DFA9DBA1DF4FC42008C835E /* RfidTagData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidTagData.h; sourceTree = "<group>"; };
+		2DFA9DBB1DF4FC42008C835E /* RfidTagReportConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfidTagReportConfig.h; sourceTree = "<group>"; };
+		2DFA9DBC1DF4FC42008C835E /* libsymbolrfid-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsymbolrfid-sdk.a"; sourceTree = "<group>"; };
+		2DFA9DC81DF5052C008C835E /* ZebraModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraModelController.h; sourceTree = "<group>"; };
+		2DFA9DC91DF5052C008C835E /* ZebraModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraModelController.m; sourceTree = "<group>"; };
+		2DFD5DE81DFE94CD006C5AC8 /* ZebraActiveScannerInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraActiveScannerInfoController.h; sourceTree = "<group>"; };
+		2DFD5DE91DFE94CD006C5AC8 /* ZebraActiveScannerInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZebraActiveScannerInfoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFA9D661DF4FB2F008C835E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF987241DF7999F00B9898B /* QuartzCore.framework in Frameworks */,
+				2DF987221DF7998D00B9898B /* CoreGraphics.framework in Frameworks */,
+				2DAF30E01DF53DAF0015204B /* ExternalAccessory.framework in Frameworks */,
+				2DAF30DE1DF53DA40015204B /* UIKit.framework in Frameworks */,
+				2DAF30DC1DF53D970015204B /* Foundation.framework in Frameworks */,
+				2DAF30D81DF53D610015204B /* CoreBluetooth.framework in Frameworks */,
+				2DF987A11DF7C11400B9898B /* libsymbolbt-sdk.a in Frameworks */,
+				2DFA9DBD1DF4FC42008C835E /* libsymbolrfid-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFA9D7F1DF4FB2F008C835E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFA9D8A1DF4FB2F008C835E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DAF308D1DF508210015204B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9DC81DF5052C008C835E /* ZebraModelController.h */,
+				2DFA9DC91DF5052C008C835E /* ZebraModelController.m */,
+				2DFA9D751DF4FB2F008C835E /* Main.storyboard */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2DAF308E1DF508340015204B /* Zebra RFID */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9F0431DF68C77008FD4E3 /* Lib */,
+				2DAF30D01DF5197D0015204B /* controller */,
+				2DAF30B61DF514920015204B /* cell */,
+				2DAF30971DF514200015204B /* model */,
+				2DAF30901DF508900015204B /* ZebraRFID.storyboard */,
+			);
+			name = "Zebra RFID";
+			sourceTree = "<group>";
+		};
+		2DAF308F1DF5085A0015204B /* Zebra Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9877D1DF7B76700B9898B /* model */,
+				2DF987491DF7A1FC00B9898B /* controller */,
+				2DAF30921DF508A40015204B /* ZebraScanner.storyboard */,
+			);
+			name = "Zebra Scanner";
+			sourceTree = "<group>";
+		};
+		2DAF30971DF514200015204B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9F0471DF68E5A008FD4E3 /* BaseDpoVC.h */,
+				2DF9F0481DF68E5A008FD4E3 /* BaseDpoVC.m */,
+				2DAF30981DF5146C0015204B /* ActiveReader.h */,
+				2DAF30991DF5146C0015204B /* ActiveReader.m */,
+				2DAF309A1DF5146C0015204B /* AppConfiguration.h */,
+				2DAF309B1DF5146C0015204B /* AppConfiguration.m */,
+				2DAF309C1DF5146C0015204B /* EnumMapper.h */,
+				2DAF309D1DF5146C0015204B /* EnumMapper.m */,
+				2DAF309E1DF5146C0015204B /* FileExportManager.h */,
+				2DAF309F1DF5146C0015204B /* FileExportManager.m */,
+				2DAF30A01DF5146C0015204B /* InventoryData.h */,
+				2DAF30A11DF5146C0015204B /* InventoryData.m */,
+				2DAF30A21DF5146C0015204B /* RadioOperationEngine.h */,
+				2DAF30A31DF5146C0015204B /* RadioOperationEngine.m */,
+				2DAF30A41DF5146C0015204B /* RegionData.h */,
+				2DAF30A51DF5146C0015204B /* RegionData.m */,
+				2DAF30A61DF5146C0015204B /* RfidAppEngine.h */,
+				2DAF30A71DF5146C0015204B /* RfidAppEngine.m */,
+				2DAF30A81DF5146C0015204B /* SledConfiguration.h */,
+				2DAF30A91DF5146C0015204B /* SledConfiguration.m */,
+				2DAF30AA1DF5146C0015204B /* ZebraModel.h */,
+				2DAF30AB1DF5146C0015204B /* ZebraModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2DAF30B61DF514920015204B /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9F04D1DF69200008FD4E3 /* RFIDTagCellView.h */,
+				2DF9F04E1DF69200008FD4E3 /* RFIDTagCellView.m */,
+				2DAF30B71DF514A80015204B /* RFIDDeviceCellVeiew.m */,
+				2DAF30B81DF514A80015204B /* RFIDDeviceCellView.h */,
+				2DAF30B91DF514A80015204B /* ZebraTableViewCell.h */,
+				2DAF30BA1DF514A80015204B /* ZebraTableViewCell.m */,
+				2DAF30BB1DF514A80015204B /* ZebraTagTableViewCell.h */,
+				2DAF30BC1DF514A80015204B /* ZebraTagTableViewCell.m */,
+				2DF9F0501DF6A7B0008FD4E3 /* ZebraInventoryCell.h */,
+				2DF9F0511DF6A7B0008FD4E3 /* ZebraInventoryCell.m */,
+				2DF9F0531DF6A7DD008FD4E3 /* InventoryCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		2DAF30C21DF515DE0015204B /* AlertProgressDialog */ = {
+			isa = PBXGroup;
+			children = (
+				2DF987A91DF7EDE300B9898B /* FwwTabBar.h */,
+				2DF987AA1DF7EDE300B9898B /* FwwTabBar.m */,
+				2DF987561DF7AFEF00B9898B /* AlertView.h */,
+				2DF987571DF7AFEF00B9898B /* AlertView.m */,
+				2DF987581DF7AFEF00B9898B /* MBProgressHUD.h */,
+				2DF987591DF7AFEF00B9898B /* MBProgressHUD.m */,
+				2DF9F0441DF68D55008FD4E3 /* UIViewController+ZT_FieldCheck.h */,
+				2DF9F0451DF68D55008FD4E3 /* UIViewController+ZT_FieldCheck.m */,
+				2DAF30C61DF516060015204B /* InventoryItem.h */,
+				2DAF30C71DF516060015204B /* InventoryItem.m */,
+				2DAF30C81DF516060015204B /* MBProgressHUD-Prefix.pch */,
+				2DAF30CB1DF516060015204B /* RfidAppKeys.h */,
+				2DF9875C1DF7B01400B9898B /* config.h */,
+				2DAF30CC1DF516060015204B /* ui_config.h */,
+			);
+			name = AlertProgressDialog;
+			sourceTree = "<group>";
+		};
+		2DAF30D01DF5197D0015204B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DAF30941DF50A3B0015204B /* ZebraRFIDController.h */,
+				2DAF30951DF50A3B0015204B /* ZebraRFIDController.m */,
+				2DAF30D11DF519B70015204B /* ZebraSettingsController.h */,
+				2DAF30D21DF519B70015204B /* ZebraSettingsController.m */,
+				2DAF30D41DF521F10015204B /* ZebraReaderListController.h */,
+				2DAF30D51DF521F10015204B /* ZebraReaderListController.m */,
+				2DF9F04A1DF68EA4008FD4E3 /* ZebraInventoryController.h */,
+				2DF9F04B1DF68EA4008FD4E3 /* ZebraInventoryController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		2DF987491DF7A1FC00B9898B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DF987A71DF7DF7200B9898B /* ScannerAppController.h */,
+				2DF987A61DF7DF7200B9898B /* ScannerAppController.m */,
+				2DF987851DF7B7F400B9898B /* ScannerListTable.h */,
+				2DF987841DF7B7F400B9898B /* ScannerListTable.m */,
+				2DF987AC1DF7EF5300B9898B /* ZebraActiveScannerController.h */,
+				2DF987AD1DF7EF5300B9898B /* ZebraActiveScannerController.m */,
+				2D1E38691DF7F24200136723 /* ZebraActiveScannerBarcodeController.h */,
+				2D1E386A1DF7F24200136723 /* ZebraActiveScannerBarcodeController.m */,
+				2DFD5DE81DFE94CD006C5AC8 /* ZebraActiveScannerInfoController.h */,
+				2DFD5DE91DFE94CD006C5AC8 /* ZebraActiveScannerInfoController.m */,
+				2D1E386C1DF7F5A400136723 /* ZebraBarcodeEventController.h */,
+				2D1E386D1DF7F5A400136723 /* ZebraBarcodeEventController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		2DF9877D1DF7B76700B9898B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2DC269C41DF95C270039DEAE /* TabletMainSplitVCDelegate.h */,
+				2DC269C51DF95C270039DEAE /* TabletMainSplitVCDelegate.m */,
+				2DC269C11DF95C040039DEAE /* TabletMainSplitVC.h */,
+				2DC269C21DF95C040039DEAE /* TabletMainSplitVC.m */,
+				2DF987911DF7B88C00B9898B /* BarcodeList.m */,
+				2DF987921DF7B88C00B9898B /* BarcodeList.h */,
+				2DF9878E1DF7B87700B9898B /* DecodeEvent.m */,
+				2DF9878F1DF7B87700B9898B /* DecodeEvent.h */,
+				2DF9878B1DF7B86100B9898B /* BarcodeTypes.m */,
+				2DF9878C1DF7B86100B9898B /* BarcodeTypes.h */,
+				2DF9878A1DF7B82E00B9898B /* AppSettingsKeys.h */,
+				2DF987871DF7B81000B9898B /* ConnectionManager.m */,
+				2DF987881DF7B81000B9898B /* ConnectionManager.h */,
+				2DF987811DF7B7BB00B9898B /* ScannerAppEngine.m */,
+				2DF987821DF7B7BB00B9898B /* ScannerAppEngine.h */,
+				2DF9877E1DF7B78C00B9898B /* ActiveScannerVC.m */,
+				2DF9877F1DF7B78C00B9898B /* ActiveScannerVC.h */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2DF987981DF7C11400B9898B /* symbolbt-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				2DF987991DF7C11400B9898B /* include */,
+				2DF987A01DF7C11400B9898B /* libsymbolbt-sdk.a */,
+			);
+			name = "symbolbt-sdk";
+			path = "symbolrfid-sdk/symbolbt-sdk";
+			sourceTree = "<group>";
+		};
+		2DF987991DF7C11400B9898B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9879A1DF7C11400B9898B /* ISbtSdkApi.h */,
+				2DF9879B1DF7C11400B9898B /* ISbtSdkApiDelegate.h */,
+				2DF9879C1DF7C11400B9898B /* RMDAttributes.h */,
+				2DF9879D1DF7C11400B9898B /* SbtScannerInfo.h */,
+				2DF9879E1DF7C11400B9898B /* SbtSdkDefs.h */,
+				2DF9879F1DF7C11400B9898B /* SbtSdkFactory.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2DF9F0431DF68C77008FD4E3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		2DFA9D601DF4FB2F008C835E = {
+			isa = PBXGroup;
+			children = (
+				2DFA9D6B1DF4FB2F008C835E /* ZebraRFD8500RFID&Scan */,
+				2DFA9D851DF4FB2F008C835E /* ZebraRFD8500RFID&ScanTests */,
+				2DFA9D901DF4FB2F008C835E /* ZebraRFD8500RFID&ScanUITests */,
+				2DFA9D6A1DF4FB2F008C835E /* Products */,
+				2DFA9DA11DF4FC24008C835E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DFA9D6A1DF4FB2F008C835E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9D691DF4FB2F008C835E /* ZebraRFD8500RFID&Scan.app */,
+				2DFA9D821DF4FB2F008C835E /* ZebraRFD8500RFID&ScanTests.xctest */,
+				2DFA9D8D1DF4FB2F008C835E /* ZebraRFD8500RFID&ScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DFA9D6B1DF4FB2F008C835E /* ZebraRFD8500RFID&Scan */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9DA01DF4FB81008C835E /* Classes */,
+				2DFA9D9F1DF4FB5E008C835E /* others */,
+				2DFA9D6C1DF4FB2F008C835E /* Supporting Files */,
+			);
+			path = "ZebraRFD8500RFID&Scan";
+			sourceTree = "<group>";
+		};
+		2DFA9D6C1DF4FB2F008C835E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9D721DF4FB2F008C835E /* ViewController.h */,
+				2DFA9D731DF4FB2F008C835E /* ViewController.m */,
+				2DFA9D781DF4FB2F008C835E /* Assets.xcassets */,
+				2DFA9D7A1DF4FB2F008C835E /* LaunchScreen.storyboard */,
+				2DFA9D7D1DF4FB2F008C835E /* Info.plist */,
+				2DFA9D6D1DF4FB2F008C835E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DFA9D851DF4FB2F008C835E /* ZebraRFD8500RFID&ScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9D861DF4FB2F008C835E /* ZebraRFD8500RFID_ScanTests.m */,
+				2DFA9D881DF4FB2F008C835E /* Info.plist */,
+			);
+			path = "ZebraRFD8500RFID&ScanTests";
+			sourceTree = "<group>";
+		};
+		2DFA9D901DF4FB2F008C835E /* ZebraRFD8500RFID&ScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9D911DF4FB2F008C835E /* ZebraRFD8500RFID_ScanUITests.m */,
+				2DFA9D931DF4FB2F008C835E /* Info.plist */,
+			);
+			path = "ZebraRFD8500RFID&ScanUITests";
+			sourceTree = "<group>";
+		};
+		2DFA9D9F1DF4FB5E008C835E /* others */ = {
+			isa = PBXGroup;
+			children = (
+				2DAF30C01DF515440015204B /* function.json */,
+				2DFA9D6F1DF4FB2F008C835E /* AppDelegate.h */,
+				2DFA9D701DF4FB2F008C835E /* AppDelegate.m */,
+			);
+			name = others;
+			sourceTree = "<group>";
+		};
+		2DFA9DA01DF4FB81008C835E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2DAF30C21DF515DE0015204B /* AlertProgressDialog */,
+				2DAF308F1DF5085A0015204B /* Zebra Scanner */,
+				2DAF308E1DF508340015204B /* Zebra RFID */,
+				2DAF308D1DF508210015204B /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2DFA9DA11DF4FC24008C835E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF987231DF7999F00B9898B /* QuartzCore.framework */,
+				2DF987211DF7998D00B9898B /* CoreGraphics.framework */,
+				2DAF30DF1DF53DAF0015204B /* ExternalAccessory.framework */,
+				2DAF30DD1DF53DA40015204B /* UIKit.framework */,
+				2DAF30DB1DF53D970015204B /* Foundation.framework */,
+				2DAF30D71DF53D610015204B /* CoreBluetooth.framework */,
+				2DF987981DF7C11400B9898B /* symbolbt-sdk */,
+				2DFA9DA21DF4FC42008C835E /* symbolrfid-sdk */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DFA9DA21DF4FC42008C835E /* symbolrfid-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9DA31DF4FC42008C835E /* include */,
+				2DFA9DBC1DF4FC42008C835E /* libsymbolrfid-sdk.a */,
+			);
+			path = "symbolrfid-sdk";
+			sourceTree = "<group>";
+		};
+		2DFA9DA31DF4FC42008C835E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA9DA41DF4FC42008C835E /* AccessOperationCode.h */,
+				2DFA9DA51DF4FC42008C835E /* RfidAccessConfig.h */,
+				2DFA9DA61DF4FC42008C835E /* RfidAntennaConfiguration.h */,
+				2DFA9DA71DF4FC42008C835E /* RfidAttribute.h */,
+				2DFA9DA81DF4FC42008C835E /* RfidBatteryEvent.h */,
+				2DFA9DA91DF4FC42008C835E /* RfidDynamicPowerConfig.h */,
+				2DFA9DAA1DF4FC42008C835E /* RfidLinkProfile.h */,
+				2DFA9DAB1DF4FC42008C835E /* RfidOperEndSummaryEvent.h */,
+				2DFA9DAC1DF4FC42008C835E /* RfidPreFilter.h */,
+				2DFA9DAD1DF4FC42008C835E /* RfidReaderCapabilitiesInfo.h */,
+				2DFA9DAE1DF4FC42008C835E /* RfidReaderInfo.h */,
+				2DFA9DAF1DF4FC42008C835E /* RfidReaderVersionInfo.h */,
+				2DFA9DB01DF4FC42008C835E /* RfidRegionInfo.h */,
+				2DFA9DB11DF4FC42008C835E /* RfidRegulatoryConfig.h */,
+				2DFA9DB21DF4FC42008C835E /* RfidReportConfig.h */,
+				2DFA9DB31DF4FC42008C835E /* RfidSdkApi.h */,
+				2DFA9DB41DF4FC42008C835E /* RfidSdkApiDelegate.h */,
+				2DFA9DB51DF4FC42008C835E /* RfidSdkDefs.h */,
+				2DFA9DB61DF4FC42008C835E /* RfidSdkFactory.h */,
+				2DFA9DB71DF4FC42008C835E /* RfidSingulationConfig.h */,
+				2DFA9DB81DF4FC42008C835E /* RfidStartTriggerConfig.h */,
+				2DFA9DB91DF4FC42008C835E /* RfidStopTriggerConfig.h */,
+				2DFA9DBA1DF4FC42008C835E /* RfidTagData.h */,
+				2DFA9DBB1DF4FC42008C835E /* RfidTagReportConfig.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DFA9D681DF4FB2F008C835E /* ZebraRFD8500RFID&Scan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFA9D961DF4FB2F008C835E /* Build configuration list for PBXNativeTarget "ZebraRFD8500RFID&Scan" */;
+			buildPhases = (
+				2DFA9D651DF4FB2F008C835E /* Sources */,
+				2DFA9D661DF4FB2F008C835E /* Frameworks */,
+				2DFA9D671DF4FB2F008C835E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZebraRFD8500RFID&Scan";
+			productName = "ZebraRFD8500RFID&Scan";
+			productReference = 2DFA9D691DF4FB2F008C835E /* ZebraRFD8500RFID&Scan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DFA9D811DF4FB2F008C835E /* ZebraRFD8500RFID&ScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFA9D991DF4FB2F008C835E /* Build configuration list for PBXNativeTarget "ZebraRFD8500RFID&ScanTests" */;
+			buildPhases = (
+				2DFA9D7E1DF4FB2F008C835E /* Sources */,
+				2DFA9D7F1DF4FB2F008C835E /* Frameworks */,
+				2DFA9D801DF4FB2F008C835E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFA9D841DF4FB2F008C835E /* PBXTargetDependency */,
+			);
+			name = "ZebraRFD8500RFID&ScanTests";
+			productName = "ZebraRFD8500RFID&ScanTests";
+			productReference = 2DFA9D821DF4FB2F008C835E /* ZebraRFD8500RFID&ScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DFA9D8C1DF4FB2F008C835E /* ZebraRFD8500RFID&ScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFA9D9C1DF4FB2F008C835E /* Build configuration list for PBXNativeTarget "ZebraRFD8500RFID&ScanUITests" */;
+			buildPhases = (
+				2DFA9D891DF4FB2F008C835E /* Sources */,
+				2DFA9D8A1DF4FB2F008C835E /* Frameworks */,
+				2DFA9D8B1DF4FB2F008C835E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DFA9D8F1DF4FB2F008C835E /* PBXTargetDependency */,
+			);
+			name = "ZebraRFD8500RFID&ScanUITests";
+			productName = "ZebraRFD8500RFID&ScanUITests";
+			productReference = 2DFA9D8D1DF4FB2F008C835E /* ZebraRFD8500RFID&ScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DFA9D611DF4FB2F008C835E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Zebra;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fengwenwei;
+				TargetAttributes = {
+					2DFA9D681DF4FB2F008C835E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 43UH8BFC23;
+					};
+					2DFA9D811DF4FB2F008C835E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2DFA9D681DF4FB2F008C835E;
+					};
+					2DFA9D8C1DF4FB2F008C835E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 2DFA9D681DF4FB2F008C835E;
+					};
+				};
+			};
+			buildConfigurationList = 2DFA9D641DF4FB2F008C835E /* Build configuration list for PBXProject "ZebraRFD8500RFID&Scan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DFA9D601DF4FB2F008C835E;
+			productRefGroup = 2DFA9D6A1DF4FB2F008C835E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DFA9D681DF4FB2F008C835E /* ZebraRFD8500RFID&Scan */,
+				2DFA9D811DF4FB2F008C835E /* ZebraRFD8500RFID&ScanTests */,
+				2DFA9D8C1DF4FB2F008C835E /* ZebraRFD8500RFID&ScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DFA9D671DF4FB2F008C835E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAF30911DF508900015204B /* ZebraRFID.storyboard in Resources */,
+				2DAF30C11DF515440015204B /* function.json in Resources */,
+				2DAF30931DF508A40015204B /* ZebraScanner.storyboard in Resources */,
+				2DF9F0541DF6A7DD008FD4E3 /* InventoryCell.xib in Resources */,
+				2DFA9D7C1DF4FB2F008C835E /* LaunchScreen.storyboard in Resources */,
+				2DFA9D791DF4FB2F008C835E /* Assets.xcassets in Resources */,
+				2DFA9D771DF4FB2F008C835E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFA9D801DF4FB2F008C835E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFA9D8B1DF4FB2F008C835E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DFA9D651DF4FB2F008C835E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAF30D61DF521F10015204B /* ZebraReaderListController.m in Sources */,
+				2DAF30B41DF5146C0015204B /* SledConfiguration.m in Sources */,
+				2DAF30AF1DF5146C0015204B /* FileExportManager.m in Sources */,
+				2DAF30B21DF5146C0015204B /* RegionData.m in Sources */,
+				2DAF30AD1DF5146C0015204B /* AppConfiguration.m in Sources */,
+				2DF9F0521DF6A7B0008FD4E3 /* ZebraInventoryCell.m in Sources */,
+				2DAF30AE1DF5146C0015204B /* EnumMapper.m in Sources */,
+				2DAF30BD1DF514A80015204B /* RFIDDeviceCellVeiew.m in Sources */,
+				2DF987801DF7B78C00B9898B /* ActiveScannerVC.m in Sources */,
+				2DF987861DF7B7F400B9898B /* ScannerListTable.m in Sources */,
+				2DF987901DF7B87700B9898B /* DecodeEvent.m in Sources */,
+				2DAF30B51DF5146C0015204B /* ZebraModel.m in Sources */,
+				2DAF30AC1DF5146C0015204B /* ActiveReader.m in Sources */,
+				2DFA9D741DF4FB2F008C835E /* ViewController.m in Sources */,
+				2DFA9D711DF4FB2F008C835E /* AppDelegate.m in Sources */,
+				2DF987AE1DF7EF5300B9898B /* ZebraActiveScannerController.m in Sources */,
+				2DAF30D31DF519B70015204B /* ZebraSettingsController.m in Sources */,
+				2DF987A81DF7DF7200B9898B /* ScannerAppController.m in Sources */,
+				2DAF30B11DF5146C0015204B /* RadioOperationEngine.m in Sources */,
+				2DF987931DF7B88C00B9898B /* BarcodeList.m in Sources */,
+				2D1E386B1DF7F24200136723 /* ZebraActiveScannerBarcodeController.m in Sources */,
+				2DF9F04F1DF69200008FD4E3 /* RFIDTagCellView.m in Sources */,
+				2DC269C31DF95C040039DEAE /* TabletMainSplitVC.m in Sources */,
+				2DFD5DEA1DFE94CD006C5AC8 /* ZebraActiveScannerInfoController.m in Sources */,
+				2DAF30B01DF5146C0015204B /* InventoryData.m in Sources */,
+				2DF9F0491DF68E5A008FD4E3 /* BaseDpoVC.m in Sources */,
+				2DAF30B31DF5146C0015204B /* RfidAppEngine.m in Sources */,
+				2DAF30961DF50A3B0015204B /* ZebraRFIDController.m in Sources */,
+				2DF987831DF7B7BB00B9898B /* ScannerAppEngine.m in Sources */,
+				2DFA9DCA1DF5052C008C835E /* ZebraModelController.m in Sources */,
+				2DF9878D1DF7B86100B9898B /* BarcodeTypes.m in Sources */,
+				2DAF30BF1DF514A80015204B /* ZebraTagTableViewCell.m in Sources */,
+				2DF9F0461DF68D55008FD4E3 /* UIViewController+ZT_FieldCheck.m in Sources */,
+				2DF987891DF7B81000B9898B /* ConnectionManager.m in Sources */,
+				2DFA9D6E1DF4FB2F008C835E /* main.m in Sources */,
+				2DAF30BE1DF514A80015204B /* ZebraTableViewCell.m in Sources */,
+				2D1E386E1DF7F5A400136723 /* ZebraBarcodeEventController.m in Sources */,
+				2DF9875A1DF7AFEF00B9898B /* AlertView.m in Sources */,
+				2DC269C61DF95C270039DEAE /* TabletMainSplitVCDelegate.m in Sources */,
+				2DAF30CE1DF516060015204B /* InventoryItem.m in Sources */,
+				2DF987AB1DF7EDE300B9898B /* FwwTabBar.m in Sources */,
+				2DF9F04C1DF68EA4008FD4E3 /* ZebraInventoryController.m in Sources */,
+				2DF9875B1DF7AFEF00B9898B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFA9D7E1DF4FB2F008C835E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFA9D871DF4FB2F008C835E /* ZebraRFD8500RFID_ScanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFA9D891DF4FB2F008C835E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DFA9D921DF4FB2F008C835E /* ZebraRFD8500RFID_ScanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DFA9D841DF4FB2F008C835E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFA9D681DF4FB2F008C835E /* ZebraRFD8500RFID&Scan */;
+			targetProxy = 2DFA9D831DF4FB2F008C835E /* PBXContainerItemProxy */;
+		};
+		2DFA9D8F1DF4FB2F008C835E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFA9D681DF4FB2F008C835E /* ZebraRFD8500RFID&Scan */;
+			targetProxy = 2DFA9D8E1DF4FB2F008C835E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DFA9D751DF4FB2F008C835E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DFA9D761DF4FB2F008C835E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DFA9D7A1DF4FB2F008C835E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DFA9D7B1DF4FB2F008C835E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DFA9D941DF4FB2F008C835E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DFA9D951DF4FB2F008C835E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DFA9D971DF4FB2F008C835E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ZebraRFD8500RFID&Scan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/symbolrfid-sdk",
+					"$(PROJECT_DIR)/symbolbt-sdk",
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"$(PROJECT_DIR)/symbolrfid-sdk/symbolbt-sdk",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ZebraRFD8500RFID-Scan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2DFA9D981DF4FB2F008C835E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "ZebraRFD8500RFID&Scan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/symbolrfid-sdk",
+					"$(PROJECT_DIR)/symbolbt-sdk",
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"$(PROJECT_DIR)/symbolrfid-sdk/symbolbt-sdk",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ZebraRFD8500RFID-Scan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2DFA9D9A1DF4FB2F008C835E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZebraRFD8500RFID&ScanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ZebraRFD8500RFID-ScanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebraRFD8500RFID&Scan.app/ZebraRFD8500RFID&Scan";
+			};
+			name = Debug;
+		};
+		2DFA9D9B1DF4FB2F008C835E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZebraRFD8500RFID&ScanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ZebraRFD8500RFID-ScanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebraRFD8500RFID&Scan.app/ZebraRFD8500RFID&Scan";
+			};
+			name = Release;
+		};
+		2DFA9D9D1DF4FB2F008C835E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZebraRFD8500RFID&ScanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ZebraRFD8500RFID-ScanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZebraRFD8500RFID&Scan";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2DFA9D9E1DF4FB2F008C835E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZebraRFD8500RFID&ScanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.ZebraRFD8500RFID-ScanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZebraRFD8500RFID&Scan";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DFA9D641DF4FB2F008C835E /* Build configuration list for PBXProject "ZebraRFD8500RFID&Scan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFA9D941DF4FB2F008C835E /* Debug */,
+				2DFA9D951DF4FB2F008C835E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFA9D961DF4FB2F008C835E /* Build configuration list for PBXNativeTarget "ZebraRFD8500RFID&Scan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFA9D971DF4FB2F008C835E /* Debug */,
+				2DFA9D981DF4FB2F008C835E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFA9D991DF4FB2F008C835E /* Build configuration list for PBXNativeTarget "ZebraRFD8500RFID&ScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFA9D9A1DF4FB2F008C835E /* Debug */,
+				2DFA9D9B1DF4FB2F008C835E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFA9D9C1DF4FB2F008C835E /* Build configuration list for PBXNativeTarget "ZebraRFD8500RFID&ScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DFA9D9D1DF4FB2F008C835E /* Debug */,
+				2DFA9D9E1DF4FB2F008C835E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DFA9D611DF4FB2F008C835E /* Project object */;
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iTE-9O-tpa">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="cdB-RJ-TiO">
+            <objects>
+                <navigationController id="iTE-9O-tpa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ioF-7i-gQX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fnT-d6-Oi7" kind="relationship" relationship="rootViewController" id="OcC-oI-wmK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCi-rl-Swb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-346.5" y="87"/>
+        </scene>
+        <!--ZebraRFD8500 Model-->
+        <scene sceneID="drF-eI-Haf">
+            <objects>
+                <viewController id="fnT-d6-Oi7" customClass="ZebraModelController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o3R-wq-cgm"/>
+                        <viewControllerLayoutGuide type="bottom" id="32z-xf-Tgr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j6Q-ax-59T">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGA-p9-Saf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.099297995020000002" green="0.64212409770000001" blue="0.91430093580000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Zebra RFID">
+                                    <color key="titleColor" red="0.97259597499999995" green="1" blue="0.9603077606" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="jumpingToZebraRFID:" destination="fnT-d6-Oi7" eventType="touchUpInside" id="jKZ-V5-1sj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJa-LV-pYY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.099297995020000002" green="0.64212409770000001" blue="0.91430093580000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Zebra Scanner">
+                                    <color key="titleColor" red="0.97259597499999995" green="1" blue="0.9603077606" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="jumpingToZebraScanner:" destination="fnT-d6-Oi7" eventType="touchUpInside" id="knL-gp-OM4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PJa-LV-pYY" firstAttribute="width" secondItem="j6Q-ax-59T" secondAttribute="width" multiplier="85%" id="0WX-HV-1b0"/>
+                            <constraint firstItem="OGA-p9-Saf" firstAttribute="width" secondItem="PJa-LV-pYY" secondAttribute="width" id="2NO-7g-tBv"/>
+                            <constraint firstItem="OGA-p9-Saf" firstAttribute="leading" secondItem="PJa-LV-pYY" secondAttribute="leading" id="Lmz-HQ-oZY"/>
+                            <constraint firstItem="PJa-LV-pYY" firstAttribute="centerY" secondItem="j6Q-ax-59T" secondAttribute="centerY" id="Ss0-yy-cZC">
+                                <variation key="widthClass=compact" constant="-150"/>
+                            </constraint>
+                            <constraint firstItem="PJa-LV-pYY" firstAttribute="height" secondItem="j6Q-ax-59T" secondAttribute="height" multiplier="7.6%" id="WD5-gc-Hms"/>
+                            <constraint firstItem="OGA-p9-Saf" firstAttribute="height" secondItem="PJa-LV-pYY" secondAttribute="height" id="jui-Zq-g7Z"/>
+                            <constraint firstItem="PJa-LV-pYY" firstAttribute="centerX" secondItem="j6Q-ax-59T" secondAttribute="centerX" id="kwh-I5-Qyb"/>
+                            <constraint firstItem="OGA-p9-Saf" firstAttribute="trailing" secondItem="PJa-LV-pYY" secondAttribute="trailing" id="lRe-WO-xog"/>
+                            <constraint firstItem="OGA-p9-Saf" firstAttribute="top" secondItem="PJa-LV-pYY" secondAttribute="bottom" constant="8" id="mKJ-Gy-ibK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="OGA-p9-Saf"/>
+                                <exclude reference="PJa-LV-pYY"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2NO-7g-tBv"/>
+                                <exclude reference="Lmz-HQ-oZY"/>
+                                <exclude reference="jui-Zq-g7Z"/>
+                                <exclude reference="lRe-WO-xog"/>
+                                <exclude reference="mKJ-Gy-ibK"/>
+                                <exclude reference="0WX-HV-1b0"/>
+                                <exclude reference="Ss0-yy-cZC"/>
+                                <exclude reference="WD5-gc-Hms"/>
+                                <exclude reference="kwh-I5-Qyb"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="OGA-p9-Saf"/>
+                                <include reference="PJa-LV-pYY"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2NO-7g-tBv"/>
+                                <include reference="Lmz-HQ-oZY"/>
+                                <include reference="jui-Zq-g7Z"/>
+                                <include reference="lRe-WO-xog"/>
+                                <include reference="mKJ-Gy-ibK"/>
+                                <include reference="0WX-HV-1b0"/>
+                                <include reference="Ss0-yy-cZC"/>
+                                <include reference="WD5-gc-Hms"/>
+                                <include reference="kwh-I5-Qyb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="ZebraRFD8500 Model" id="LZt-Gq-jQK"/>
+                    <connections>
+                        <outlet property="zebraRfid" destination="OGA-p9-Saf" id="WQP-Dl-Uhf"/>
+                        <outlet property="zebraScanner" destination="PJa-LV-pYY" id="giv-4d-AL9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KfO-Hm-5eU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="345" y="64"/>
+        </scene>
+    </scenes>
+</document>
